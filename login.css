@@ -1,0 +1,46 @@
+
+html, body {
+    height: 100px;
+    width:auto;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/contact_g.jpg'); /* Specify the path to your image */
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(216, 205, 205);
+}
+hr{
+  width: 40rem;
+}
+
+input {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background: transparent;
+  color: white;
+}
+button {
+  background: transparent;
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  color: rgb(34, 29, 29);
+  width: 30%;
+  background-color: lightblue;
+  border-radius: 5%;
+}
+input.password{
+    padding: 0;
+}
+
+button:hover {
+  opacity: 0.8;
+}
